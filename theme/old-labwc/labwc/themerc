@@ -1,0 +1,22 @@
+window.active.title.bg: gradient vertical
+window.active.title.bg.color: #2b2b2b
+window.active.title.bg.colorTo: #212121
+window.active.label.text.color: #e6e6e6
+window.active.border.color: #000000
+window.active.button.unpressed.image.color: #e6e6e6
+window.active.button.pressed.image.color: #e6e6e6
+
+window.inactive.title.bg: gradient vertical
+window.inactive.title.bg.color: #2e2e2e
+window.inactive.title.bg.colorTo: #1f1f1f
+window.inactive.border.width: 0
+window.inactive.label.text.color: #9c9c9c
+window.inactive.border.color: #000000
+window.inactive.button.unpressed.image.color: #9c9c9c
+window.inactive.button.pressed.image.color: #9c9c9c
+
+menu.items.bg.color: #2b2b2b
+menu.items.text.color: #c7c7c7
+menu.items.active.bg.color: #1c1c1c
+menu.items.active.text.color: #e6e6e6
+menu.border.color: #000000

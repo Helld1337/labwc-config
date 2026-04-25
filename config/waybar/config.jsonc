@@ -1,0 +1,56 @@
+{
+    "layer": "top",
+    "height": 27,
+    "position": "top",
+
+    "modules-left": ["custom/fuzzel", "custom/text", "wlr/taskbar"],
+    "modules-right": ["custom/cliphist", "network", "pulseaudio", "custom/text2", "clock"],
+
+    "custom/fuzzel": {
+	"format": "application",
+	"tooltip": false,
+	"on-click": "fuzzel",
+	"on-click-right": "pkill fuzzel"
+    },
+    "custom/text": {
+        "format": "⋮",
+        "tooltip": false
+    },
+    "wlr/taskbar": {
+        "format": "{icon} {app_id}",
+	"tooltip-format": "{title:.50}",
+        "on-click": "minimize-raise",
+        "on-click-right": "close"
+    },
+
+
+    "custom/cliphist": {
+	"format": " ",
+	"on-click": "cliphist list | fuzzel --dmenu | cliphist decode | wl-copy",
+	"on-click-right": "pkill fuzzel",
+	"on-click-middle": "cliphist wipe",
+	"tooltip": false
+    },
+    "network": {
+	"format": " ",
+	"tooltip-format-wifi": "WiFi: {essid}\n {signalStrength}%\nIP: {ipaddr}",
+	"tooltip-format-ethernet": "Ethernet: {ifname}\nIP: {ipaddr}",
+	"tooltip-format-disconnected": "Disconnected",
+	"on-click": "nm-connection-editor"
+    },	
+
+    "pulseaudio": {
+        "format": " ",
+        "on-click": "pavucontrol",
+        "tooltip-format": "{volume}%",
+        "scroll-step": 5
+    },
+    "custom/text2": {
+	"format": "⋮",
+	"tooltip": false
+    },
+    "clock": {
+        "format": "{:%H:%M}",
+        "tooltip-format": "{:%d.%m.%Y}"
+    }
+}

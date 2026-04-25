@@ -1,0 +1,51 @@
+* {
+    font-family: "Sans";
+    font-size: 14px;
+}
+
+window#waybar {
+	background: linear-gradient(to bottom, #2e2e2e, #1f1f1f);
+}
+
+#custom-text {
+        color: #bfbfbf;
+        padding: 3;
+}
+
+#taskbar button {
+	padding: 0;
+	margin: 0px;
+	background: linear-gradient(to bottom, #4f4f4f, #333333);
+}
+
+#pulseaudio {
+	background-image: url("/usr/share/icons/AdwaitaLegacy/32x32/legacy/audio-volume-medium.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	min-width: 24px;
+	min-height: 24px;
+}
+
+#network {
+        background-image: url("/usr/share/icons/AdwaitaLegacy/32x32/legacy/network-wired.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        min-width: 24px;
+        min-height: 24px;
+}	
+
+#custom-cliphist {
+        background-image: url("/usr/share/icons/AdwaitaLegacy/32x32/legacy/accessories-text-editor.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        min-width: 24px;
+        min-height: 24px;
+}
+
+#custom-text2 {
+	color: #bfbfbf;
+	padding: 3;	
+}

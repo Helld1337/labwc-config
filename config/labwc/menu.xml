@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openbox_menu>
+    <menu id="root-menu" label="labwc">
+        <separator />
+
+        <menu id="power-menu" label="Питание">
+            <item label="Сон">
+                <action name="Execute" command="systemctl suspend" />
+            </item>
+            <item label="Перезагрузка">
+                <action name="Execute" command="systemctl reboot" />
+            </item>
+            <item label="Выключение">
+                <action name="Execute" command="systemctl poweroff" />
+            </item>
+        </menu>
+
+        <separator />
+
+        <item label="Обновить конфиг">
+            <action name="Reconfigure" />
+        </item>
+
+        <item label="Выйти">
+            <action name="Exit" />
+        </item>
+    </menu>
+</openbox_menu>

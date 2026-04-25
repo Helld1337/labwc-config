@@ -1,5 +1,5 @@
 # Old school dotfiles labwc
 
-Arch only
+Arch linux only
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7e870ef0-2318-428d-8934-fb37f526aa3b" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9e583e9e-fdc3-4dbe-86d7-c8aab4dfc386" />

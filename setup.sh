@@ -2,7 +2,7 @@
 
 set -e
 
-pkgs="foot fuzzel labwc mako waybar swaybg wlr-randr wl-clipboard slurp grim cliphist pavucontrol nm-connection-editor"
+pkgs="foot fuzzel labwc mako waybar swaybg wlr-randr wl-clipboard slurp grim cliphist pavucontrol nm-connection-editor nwg-look"
 
 if command -v doas >/dev/null 2>&1; then
     su_cmd="doas"

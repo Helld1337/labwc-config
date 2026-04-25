@@ -1,5 +1,5 @@
 swaybg -i ~/.config/wallpaper.jpg &
 waybar &
 mako &
-konshi &
+kanshi &
 wl-paste --watch cliphist store &

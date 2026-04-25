@@ -23,6 +23,12 @@
         <command>sh -c 'mkdir -p "$HOME/Pictures"; fname="$HOME/Pictures/$(date +%Y-%m-%d_%H-%m-%S).png"; grim -g "$(slurp)" "$fname" &amp;&amp; wl-copy &lt; "$fname"'</command>
       </action>
     </keybind>
+    
+    <keybind key="W-v">
+      <action name="Execute">
+        <command>sh -c "cliphist list | fuzzel --dmenu | cliphist decode | wl-copy"</command>
+      </action>
+    </keybind>
   </keyboard>
-
+    
 </labwc_config>

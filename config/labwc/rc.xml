@@ -20,7 +20,7 @@
 
     <keybind key="Print">
       <action name="Execute">
-        <command>sh -c 'mkdir -p "$HOME/Pictures"; fname="$HOME/Pictures/$(date +%Y-%m-%d_%H-%m-%S).png"; grim -g "$(slurp)" "$fname" &amp;&amp; wl-copy &lt; "$fname"'</command>
+        <command>sh -c 'mkdir -p "$HOME/Pictures"; grim -g "$(slurp)" - | swappy -f -'</command>
       </action>
     </keybind>
     

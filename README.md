@@ -4,7 +4,8 @@
 
 
 
-```⚠️ setup.sh только для Arch и Arch based, определяет doas и sudo.```
-```⚠️ Для исправления цвета текста на waybar, поставьте темную тему в nwg-look```
+`⚠️ setup.sh только для Arch и Arch based, определяет doas и sudo.`
+
+`⚠️ Для исправления цвета текста на waybar, поставьте темную тему в nwg-look`
 
 
